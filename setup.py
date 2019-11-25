@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 with open('README.md', encoding='utf-8') as f:
     long_description = f.read()
 
-requirements = ['ipython>=7.9', 'tornado>=6.0.3']
+requirements = ['ipython>=7.9', 'requests>=2.22']
 
 setup(
     name='clb-nb-utils',
